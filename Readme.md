@@ -13,6 +13,17 @@
 - **Participant:** Lavanya
 
 ---
+## 🎥 Demo Video
+
+📽️ **Project Walkthrough & Demo:**  
+👉 [Watch the BullBear AI Demo Video](https://drive.google.com/drive/folders/1bFjOkoT99ZmCDYTcyGNa17-CgOaNZ7yF)
+
+This video demonstrates:
+- Homepage & navigation flow
+- Stock search and dashboard
+- AI-based price prediction (LSTM)
+- Portfolio analytics (CAGR, volatility, drawdown, correlation)
+- Overall system architecture and features
 
 ## 🧠 Project Overview
 

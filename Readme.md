@@ -122,23 +122,39 @@ The project demonstrates the practical application of **machine learning, data e
 
 HackXIndia-Hackathon-2026/
 │
+
 ├── client/ # React frontend
+
 │ ├── pages/
+
 │ ├── components/
+
 │ └── App.jsx
+
 │
 ├── server/
+
 │ ├── app.py # Flask backend
+
 │ ├── ml/
+
 │ │ ├── train_lstm.py # Model training
+
 │ │ └── predict.py # Prediction logic
+
 │ ├── data/ # CSV datasets (ignored in Git)
+
 │ ├── models/ # Saved ML models
+
 │ └── api/
+
 │
 ├── .env.example # Environment variables template
+
 ├── .gitignore
+
 └── README.md
+
 
 
 ---

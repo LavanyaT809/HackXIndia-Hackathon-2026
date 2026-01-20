@@ -1,16 +1,11 @@
 # 📈 BullBear AI  
 ### AI-Powered Stock Market Analysis Platform  
 **HackXIndia Hackathon 2026**
-
-> 🚧 **Active Development**  
-> This project is being built as part of **HackXIndia Hackathon 2026**.  
-> Features and implementation are being added iteratively.
-
 ---
 
 ## 👤 Team Details
-- **Team Name:** INNOVATEX (Solo)
-- **Participant:** Lavanya
+- **Team Name:** InnovateX (Solo)
+- **Participant:** Lavanya Tuptewar
 
 ---
 ## 🎥 Demo Video
@@ -32,6 +27,37 @@ This video demonstrates:
 The project demonstrates the practical application of **machine learning, data engineering, and full-stack development** in a real-world financial use case.
 
 ---
+## 🧰 Built With
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+---
+
+### Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
+
+---
+
+### Machine Learning & Analytics
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![LSTM](https://img.shields.io/badge/LSTM-Time%20Series-blueviolet?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+---
+
+### Data Sources & Tools
+![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-6001D2?style=for-the-badge)
+![Alpha Vantage](https://img.shields.io/badge/Alpha%20Vantage-0066CC?style=for-the-badge)
+
 
 ## 🚀 Features
 

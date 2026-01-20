@@ -1,44 +1,7 @@
 # 📈 BullBear AI  
 ### AI-Powered Stock Market Analysis and Prediction Platform  
 
-## Overview
-**BullBear AI** is an AI-powered stock market and portfolio intelligence platform...
-
-## Problem Statement
-Most stock market platforms overwhelm users with charts, numbers, and noise...
-
-## Tech Stack
-### Frontend
-- React.js, JavaScript, CSS3, Vite, Chart.js / Recharts
-
-### Backend
-- Python, Flask, REST API
-
-### Machine Learning & Analytics
-- TensorFlow, Keras, LSTM, NumPy, Pandas, Scikit-learn
-
-### Data Sources
-- Yahoo Finance, Alpha Vantage, Financial Modeling Prep, NewsAPI
-
-## Architecture
-[Add system architecture diagram and description here]
-
-## Functional Requirements
-- Stock search and dashboard
-- AI price prediction (LSTM)
-- Portfolio analytics engine
-- Market news & sentiment analysis
-- Investor education & explainable insights
-
-## Non-Functional Requirements
-- Fast and responsive UI
-- Secure API endpoints
-- Scalability to support multiple concurrent users
-- Reliable and accurate ML predictions
-
-## Repository Layout
-
-## 🚀 Project Overview — BullBear AI
+## 🚀 Project Overview 
 
 **BullBear AI** is an AI-powered stock market and portfolio intelligence platform designed to transform raw market data into clear, explainable, and risk-aware insights for students, beginners, and retail investors.
 

@@ -67,26 +67,65 @@ This video demonstrates:
 ![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-6001D2?style=for-the-badge)
 ![Alpha Vantage](https://img.shields.io/badge/Alpha%20Vantage-0066CC?style=for-the-badge)
 
+## 🖼️ Screenshots
 
-## 🚀 Features
+### 🏠 Homepage
+![Homepage](screenshots/homepage.png)
+
+### 📈 Stock Dashboard
+![Stock Dashboard](screenshots/stock_dashboard.png)
+
+### 🤖 AI Price Prediction
+![AI Price Prediction](screenshots/price_prediction.png)
+
+### 📊 Portfolio Analytics
+![Portfolio Analytics](screenshots/portfolio_analytics.png)
+
+### 🔗 Correlation Matrix
+![Correlation Matrix](screenshots/correlation_matrix.png)
+
+### 📰 Market News & Sentiment
+![Market News](screenshots/news.png)
+
+### 📚 Investor Education & Insights
+![Education](screenshots/education.png)
+
+## 🚀 Features  & Unique Strengths
 
 ### 🔍 Stock Search & Interactive Dashboard
 - Search any U.S. stock (AAPL, MSFT, TSLA, etc.)
 - Dedicated dashboard per stock
 - Live & historical price visualization
 - Interactive charts for trend analysis
-
+**USP:** Combines price data with analytical context, not just charts.
 ---
 
 ### 🤖 AI Price Prediction (LSTM)
 - Predicts **next-day closing price**
-- Trained using historical **OHLC data**
+- Trained on **15+ years of historical U.S. stock market data using historical **OHLC data**  
 - Uses **LSTM (Long Short-Term Memory)** neural networks
 - Displays:
   - Predicted price
-  - Confidence score based on prediction error
+  - **confidence score** based on prediction error
 
 ---
+### 📊 Portfolio Analytics Engine
+- Professional-grade portfolio evaluation similar to institutional tools  
+- Key metrics:
+  - CAGR (Compound Annual Growth Rate)
+  - Volatility (Risk)
+  - Maximum Drawdown
+  - Overall Risk Classification  
+- Works on portfolios as a **system**, not isolated stocks
+
+### ⚖️ Risk–Return & Diversification Analysis
+- Interactive risk–return scatter visualization  
+- Correlation matrix showing relationships between assets  
+- Identification of over-exposed and under-diversified positions  
+- Clear insights into risk concentration  
+
+**USP:** Visual analytics make complex financial concepts instantly understandable.
+
 
 ### 📰 Market News & Sentiment Analysis
 - Stock-related news aggregation
@@ -104,33 +143,79 @@ This video demonstrates:
 - Backend caching for improved performance
 
 ---
-
-### ⚠️ Planned AI Enhancements
-- Volatility-based risk analysis
-- Anomaly detection (price & volume spikes)
-- AI-generated stock summaries
-- Portfolio-level analytics
-
+### 📚 Investor Education & Explainable Insights
+- Educational explanations for financial metrics  
 ---
 
 ## 🧠 AI Price Prediction – How It Works
 
+### 📊 Data Foundation (2010–2025)
+
+- Trained on **15+ years of historical U.S. stock market data**
+- Covers **148+ actively traded stocks**
+- Data includes:
+  - Open, High, Low, Close (OHLC)
+  - Trading Volume
+  - Daily Returns
+  - Volatility & Momentum Indicators
+
+📈 Built to generalize across multiple market cycles:
+- Bull markets  
+- Bear markets  
+- High-volatility periods (COVID, inflation cycles, interest rate hikes)
+
+---
+
+
+### ⚙️ Prediction Pipeline
+
+**1️⃣ Historical Pattern Learning**  
+- Learns short-term and long-term price behavior using rolling time windows
+
+**2️⃣ Feature Engineering**  
+- Converts raw price data into meaningful indicators:
+  - Moving averages
+  - Price momentum
+  - Volatility trends
+  - Return distributions
+
+**3️⃣ Machine Learning Model**  
+- Supervised learning model trained to predict the **next trading day’s opening price**
+- Designed to reduce intraday noise while capturing directional bias
+
+**4️⃣ Confidence-Aware Output**  
+- Provides:
+  - Directional insight (Bullish / Bearish bias)
+  - Confidence indicators to discourage over-reliance on predictions
+
+---
 ### Model
 - **LSTM (Deep Learning – Time Series Forecasting)**
 - **Input:** Last *N* days of OHLC data
 - **Output:** Next trading day closing price
 
-### Workflow
-1. Fetch historical stock market data
-2. Normalize data using `MinMaxScaler`
-3. Create rolling time-series sequences
-4. Train LSTM neural network
-5. Evaluate using RMSE and MAE
-6. Save trained model
-7. Predict next-day price using latest market data
+### 🔍 Explainable AI (XAI)
+
+Unlike black-box prediction systems, BullBear AI emphasizes **interpretability**:
+
+- Highlights historical trends influencing predictions  
+- Encourages users to understand *why* a movement is expected  
+- Promotes learning and informed decision-making  
+
+---
+
+### 🚀 Unique Selling Points (USP)
+
+- ✔ Trained on long-term market data (2010–2025) for stronger generalization  
+- ✔ Focused on **education-first AI**, not speculative trading  
+- ✔ Designed for students, beginners, and retail investors  
+- ✔ Combines prediction + explanation + risk awareness  
+- ✔ Integrates seamlessly with portfolio-level analytics  
+
+---
 
 📌 **Dynamic Prediction**
-- If today is Aug 21 → predicts Aug 22
+- If today is jan 21 → predicts jan 22
 - No hard-coded dates
 
 ---
@@ -138,29 +223,32 @@ This video demonstrates:
 ## 🧱 Tech Stack
 
 ### Frontend
-- React.js
-- JavaScript
-- CSS
-- Chart.js / Recharts
-- React Router
+- **React.js** – Component-based UI development  
+- **JavaScript (ES6+)** – Client-side logic and interaction  
+- **CSS3** – Responsive and modern styling  
+- **Vite** – Fast development server and build tool  
+- **Chart.js / Recharts** – Interactive financial data visualizations  
+- **React Router** – Client-side routing and navigation  
 
-### Backend
-- Python
-- Flask
-- REST APIs
+### ⚙️ Backend
+- **Python** – Core backend and analytics logic  
+- **Flask** – Lightweight REST API framework  
+- **RESTful APIs** – Communication between frontend and backend  
 
-### Machine Learning
-- TensorFlow / Keras
-- NumPy
-- Pandas
-- Scikit-learn
-- LSTM Neural Networks
 
-### Data Sources
-- Yahoo Finance (`yfinance`)
-- Alpha Vantage API
-- Financial Modeling Prep API
-- NewsAPI
+### 🤖 Machine Learning & Analytics
+- **TensorFlow / Keras** – Deep learning model training and inference  
+- **LSTM (Long Short-Term Memory)** – Time-series stock price prediction  
+- **NumPy** – Numerical computations  
+- **Pandas** – Data processing and feature engineering  
+- **Scikit-learn** – Data scaling and evaluation metrics
+
+  
+### 📊 Data Sources
+- **Yahoo Finance (`yfinance`)** – Historical and live stock market data  
+- **Alpha Vantage API** – Financial indicators and market data  
+- **Financial Modeling Prep API** – Stock fundamentals and market insights  
+- **NewsAPI** – Stock-related news and sentiment context  
 
 ---
 
@@ -206,6 +294,7 @@ HackXIndia-Hackathon-2026/
 ---
 
 ## ⚙️ Setup Instructions
+From setup to launch in minutes!
 
 ### 1️⃣ Clone Repository
 ```bash
@@ -232,9 +321,14 @@ npm run dev
 cd server/ml
 python train_lstm.py
 
-🎥 Demo Video
-
-Demo link will be added before final submission.
-
 
 ---
+### ⚠️ Responsible AI Disclaimer
+
+BullBear AI is an **educational decision-support system**, not a financial advisory tool.  
+All predictions are probabilistic and intended to enhance understanding — **not replace human judgment or professional advice**.
+
+### ⚠️ Planned AI Enhancements
+- Volatility-based risk analysis
+- Anomaly detection (price & volume spikes)
+- AI-generated stock summaries

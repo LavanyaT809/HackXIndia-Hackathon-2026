@@ -1,5 +1,64 @@
 # 📈 BullBear AI  
 ### AI-Powered Stock Market Analysis and Prediction Platform  
+# 📈 BullBear AI  
+
+## 📑 Table of Contents
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Functional Requirements](#functional-requirements)
+- [Non-Functional Requirements](#non-functional-requirements)
+- [Repository Layout](#repository-layout)
+- [Project Demo](#project-demo)
+- [Installation and Setup](#installation-and-setup)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [System Design and Request Flow](#system-design-and-request-flow)
+- [Future Features](#future-features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+## Overview
+**BullBear AI** is an AI-powered stock market and portfolio intelligence platform...
+
+## Problem Statement
+Most stock market platforms overwhelm users with charts, numbers, and noise...
+
+## Tech Stack
+### Frontend
+- React.js, JavaScript, CSS3, Vite, Chart.js / Recharts
+
+### Backend
+- Python, Flask, REST API
+
+### Machine Learning & Analytics
+- TensorFlow, Keras, LSTM, NumPy, Pandas, Scikit-learn
+
+### Data Sources
+- Yahoo Finance, Alpha Vantage, Financial Modeling Prep, NewsAPI
+
+## Architecture
+[Add system architecture diagram and description here]
+
+## Functional Requirements
+- Stock search and dashboard
+- AI price prediction (LSTM)
+- Portfolio analytics engine
+- Market news & sentiment analysis
+- Investor education & explainable insights
+
+## Non-Functional Requirements
+- Fast and responsive UI
+- Secure API endpoints
+- Scalability to support multiple concurrent users
+- Reliable and accurate ML predictions
+
+## Repository Layout
+
 ## 🚀 Project Overview — BullBear AI
 
 **BullBear AI** is an AI-powered stock market and portfolio intelligence platform designed to transform raw market data into clear, explainable, and risk-aware insights for students, beginners, and retail investors.
@@ -289,7 +348,30 @@ HackXIndia-Hackathon-2026/
 
 └── README.md
 
+## 📡 API Endpoints
 
+### Market Data
+GET /api/stocks
+– Fetch supported stock symbols
+
+GET /api/stocks/{symbol}
+– Get historical price data for a stock
+
+### AI Price Prediction
+POST /api/predict
+– Predict next-day opening price with confidence score
+
+### Portfolio Analytics
+POST /api/portfolio/analyze
+– Analyze portfolio risk, return, and diversification
+
+### Correlation & Risk
+POST /api/portfolio/correlation
+– Generate correlation matrix for portfolio assets
+
+### News & Sentiment
+GET /api/news/{symbol}
+– Fetch latest market news for a stock
 
 ---
 
@@ -321,14 +403,39 @@ npm run dev
 cd server/ml
 python train_lstm.py
 
-
+```
 ---
-### ⚠️ Responsible AI Disclaimer
+## 🧠 Why I Built This
 
-BullBear AI is an **educational decision-support system**, not a financial advisory tool.  
-All predictions are probabilistic and intended to enhance understanding — **not replace human judgment or professional advice**.
+Most retail investors and students rely on price charts without understanding **risk, diversification, or portfolio behavior**.  
+Existing platforms focus on *what the price is*, but rarely explain *why it moves* or *how assets interact together*.
+
+I built **BullBear AI** to bridge this gap — by combining **explainable analytics, portfolio intelligence, and responsible AI** into a single, beginner-friendly platform.
+
+The goal is not to predict markets blindly, but to help users **think like informed investors**, understand risk before returns, and make data-driven decisions with confidence.
+
 
 ### ⚠️ Planned AI Enhancements
 - Volatility-based risk analysis
 - Anomaly detection (price & volume spikes)
 - AI-generated stock summaries
+
+## 🤝 Contributing
+
+This project was developed as a hackathon and learning-focused initiative.
+
+Suggestions, feedback, and improvements are welcome.
+If you’d like to contribute:
+
+1. Fork the repository  
+2. Create a new feature branch  
+3. Submit a pull request with a clear description  
+
+For major changes, please open an issue first to discuss the idea.
+
+  
+### ⚠️ Responsible AI Disclaimer
+
+BullBear AI is an **educational decision-support system**, not a financial advisory tool.  
+All predictions are probabilistic and intended to enhance understanding — **not replace human judgment or professional advice**.
+

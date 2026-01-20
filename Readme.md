@@ -1,11 +1,25 @@
 # 📈 BullBear AI  
-### AI-Powered Stock Market Analysis Platform  
-**HackXIndia Hackathon 2026**
+### AI-Powered Stock Market Analysis and Prediction Platform  
+## 🚀 Project Overview — BullBear AI
+
+**BullBear AI** is an AI-powered stock market and portfolio intelligence platform designed to transform raw market data into clear, explainable, and risk-aware insights for students, beginners, and retail investors.
+
+Most stock market platforms overwhelm users with charts, numbers, and noise — but fail to answer the most important questions:
+
+- Why is a stock moving?
+- How risky is my investment?
+- What can I realistically expect next?
+- How do my stocks behave together as a portfolio?
+
+BullBear AI addresses this gap by combining **real-time market data, portfolio-level analytics, and machine learning models** into a single interactive dashboard — helping users move from emotional decision-making to data-driven understanding.
+
 ---
 
 ## 👤 Team Details
 - **Team Name:** InnovateX (Solo)
 - **Participant:** Lavanya Tuptewar
+- **Hackathon:** HackXIndia Hackathon 2026
+- **Domain:**  AI & Automation(AI for Bharat)
 
 ---
 ## 🎥 Demo Video
@@ -20,11 +34,6 @@ This video demonstrates:
 - Portfolio analytics (CAGR, volatility, drawdown, correlation)
 - Overall system architecture and features
 
-## 🧠 Project Overview
-
-**BullBear AI** is a full-stack stock market analytics platform that combines real-time stock data, interactive dashboards, and AI/ML-driven insights such as next-day price prediction, market sentiment analysis, and risk indicators.
-
-The project demonstrates the practical application of **machine learning, data engineering, and full-stack development** in a real-world financial use case.
 
 ---
 ## 🧰 Built With

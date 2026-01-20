@@ -1,26 +1,5 @@
 # 📈 BullBear AI  
 ### AI-Powered Stock Market Analysis and Prediction Platform  
-# 📈 BullBear AI  
-
-## 📑 Table of Contents
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Functional Requirements](#functional-requirements)
-- [Non-Functional Requirements](#non-functional-requirements)
-- [Repository Layout](#repository-layout)
-- [Project Demo](#project-demo)
-- [Installation and Setup](#installation-and-setup)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [System Design and Request Flow](#system-design-and-request-flow)
-- [Future Features](#future-features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
----
 
 ## Overview
 **BullBear AI** is an AI-powered stock market and portfolio intelligence platform...

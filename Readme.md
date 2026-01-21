@@ -71,7 +71,7 @@ This video demonstrates:
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/Homepage.png)
 
 ### 📈 Stock Dashboard
 ![Stock Dashboard](screenshots/stock_dashboard.png)
